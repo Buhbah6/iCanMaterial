@@ -21,7 +21,7 @@ html {
 }
 
 .intro span {
-    font-size: calc(2vw + 2vh);;
+    font-size: calc(2vw + 2vh);
     font-family: 'Courier New', Courier, monospace;
     color: #fff;
     text-shadow: 5px 5px 5px #000;
@@ -52,7 +52,7 @@ html {
     margin: 10px;
     width: 300px;
     border-radius: 20px;
-    background-color: #4c2491;
+    background-color: #744CBA;
     border: black solid 3px;
 }
 
@@ -60,14 +60,14 @@ html {
     font-size: 20px;
     font-family: 'Lobster';
     color: #fff;
-    background-color: #4c2491;
+    background-color: #744CBA;
     padding: 10px;
     border-radius: 20px;
     display: block;
 }
 
 .navbar a:hover {
-    background-color:hotpink;
+    background-color:#964CBA;
 }
 
 /* Footer for all pages */
@@ -100,9 +100,9 @@ footer {
 /* Announcements Page */
 .announcement {
     display: block;
-    background-color: rgba(104, 48, 201, 95%);
+    background-color: rgba(114, 76, 186, 95%);
     margin: 20px auto;
-    width: 50%;
+    width: 75%;
     border-radius: 10px;
     padding: 1%;
     border: black solid 3px;
@@ -120,16 +120,12 @@ footer {
     color:aquamarine;
 }
 
-#urgent h1 {
-    color:#f54747;
-}
-
 /* Class Documents Page */
 .docs {
     display: flex;
     margin: 20px auto;
-    width: 60%;
-    border-radius: 10px;
+    width: 90%;
+    border-radius: 50px;
     padding: 1%;
 }
 
@@ -139,6 +135,7 @@ footer {
     vertical-align: middle;
     text-align: center;
     border-radius: 10px;
+    height: fit-content;
 }
 
 #title {
@@ -149,12 +146,12 @@ footer {
 }
 
 .lessons {
-    background-color: #cc81f7;
+    background-color: #A74CBA;
     margin-right: 15px;
 }
 
 .code {
-    background-color: #47e7f5;
+    background-color: #4C5DBA;
 }
 
 .document  {
@@ -165,17 +162,21 @@ footer {
     margin: 2%;
 }
 
+.document li {
+    text-align: left;
+}
+
 .lessons .document {
-    background-color: #e0bcf5;
+    background-color: #BA8CBD;
 }
 
 .code .document  {
-    background-color: #94eaf2;
+    background-color: #8392BC;
 }
 
 .document button {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: calc(0.6vw + 0.6vh);
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
@@ -189,6 +190,7 @@ footer {
   -webkit-user-select: none;
   touch-action: manipulation;
   width: 80%;
+  background-color: #5E4CBA;
 }
 
 .document button:active {
@@ -203,64 +205,62 @@ footer {
   }
 }
 
-/*Assessments Page*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;800&display=swap");
-
+/* Calendar Page */
 .calendar {
-	display: flex;
-	flex-flow: column;
-	align-items: center;
+	display: block;
 	font-family: "Poppins", serif;
-	background: rgb(238, 174, 202);
 	background: radial-gradient(
 		circle,
-		rgba(238, 174, 202, 1) 0%,
-		rgba(148, 187, 233, 1) 100%
+		#427CBD 0%,
+		#824CBA 100%
 	);
-    border-radius: 50px;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    margin-bottom: 5%;
-}
-.calendar h1 {
-	font-weight: 800;
-	margin: 1rem 0 0;
+    border-radius: 30px;
+    padding: 3%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
-.calendar ul {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	flex-wrap: wrap;
-	list-style: none;
+.calendar iframe {
+    border-radius: 10px;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    overflow: scroll;
 }
 
-.calendar li {
-        display: flex;
-        width: 10rem;
-        height: 10rem;
-        margin: 0.25rem;
-        flex-flow: column;
-        border-radius: 0.2rem;
-        padding: 1rem;
-        font-weight: 300;
-        font-size: 0.8rem;
-        box-sizing: border-box;
-        background: rgba(255, 255, 255, 0.25);
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        backdrop-filter: blur(4px);
-        -webkit-backdrop-filter: blur(4px);
-        border-radius: 10px;
-        border: 1px solid rgba(255, 255, 255, 0.18);
-
-        time {
-            font-size: 2rem;
-            margin: 0 0 1rem 0;
-            font-weight: 500;
-        }
+.summaryDates {
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
 }
-.today {
-    time {
-        font-weight: 800;
-    }
-    background: #ffffff70;
+
+.summaryDates h1 {
+    font-size: 300%;
+}
+
+.upcoming {
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    color: #000;
+    font-size: 1.2em;
+    padding: 2%;
+    background-color: #b282d9;
+}
+
+.upcoming h1 {
+    font-size: 200%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+    color:aqua;
+}
+
+#urgent h1 {
+    color:#f54747;
 }
