@@ -124,8 +124,6 @@ name = "Billibob Joe"
 name = input("What is your name?")
 print("Hello " + name + "!")
 
-# In-class exercise on functions
-
 
 ### Practice Problems ### -> Try to do these on your own, but if you get stuck, feel free to ask for help
 '''
@@ -142,10 +140,23 @@ print("Hello " + name + "!")
 # Solutions
 
 # 1.
+first_name = input("What is your first name? ")
+last_name = input("What is your last name? ")
+print("Hello " + first_name + " " + last_name)
 
 # 2.
+age = input("What is your age? ")
+print("You are " + age + " years old!")
 
 # 3.
+num1 = int(input("Please enter the first integer"))
+num2 = int(input("Please enter the second integer"))
+print("Sum: " + str(num1 + num2))
+print("Product: " + str(num1 * num2))
+print("Quotient: " + str(num1 / num2))
+print("Difference: " + str(num1 - num2))
 
 # 4.
+num = int(input("Please enter a number"))
+print("The square of " + str(num) + " is " str(num * num))
 

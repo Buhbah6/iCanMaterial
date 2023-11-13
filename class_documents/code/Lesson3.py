@@ -8,6 +8,7 @@
     - Break and Continue 
 '''
 
+### Lesson 3 ###
 ### Lists ###
 # Lists are a collection of items in a particular order
 # Lists are mutable (can be changed)
@@ -75,3 +76,6 @@ i = 0
 while i < 10:
     print(i)
     i += 1
+
+
+### Lesson 4 ###

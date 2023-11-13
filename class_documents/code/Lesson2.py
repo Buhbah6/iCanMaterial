@@ -304,6 +304,8 @@ if with_adult.lower() == "yes":
 
 # This is useful because it means we don't have to check for both uppercase and lowercase letters
 
+# Side Note: You can use the exit() function to stop running python at a given point
+
 
 ### Practice Problems ###
 
