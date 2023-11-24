@@ -189,9 +189,9 @@ else:  # If the name is not a number, then it will print the name
 
 # Here is an example:
 num = 10
-if num <= 6:
+if num < 6:
     print("num is less than or equal to 6")
-elif num >= 6:
+elif num > 6:
     print("num is greater than or equal to 6")
 else:
     print("num is equal to 6")
