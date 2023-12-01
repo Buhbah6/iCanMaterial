@@ -158,5 +158,5 @@ print("Difference: " + str(num1 - num2))
 
 # 4.
 num = int(input("Please enter a number"))
-print("The square of " + str(num) + " is " str(num * num))
+print("The square of " + str(num) + " is " + str(num * num))
 
