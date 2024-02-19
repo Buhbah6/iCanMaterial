@@ -1,8 +1,7 @@
 
 html {
-    background-image: url("images/background1.jpg");
+    background-image: url("../images/background2.jpg");
     background-repeat: repeat;
-    background-size: contain;
     overflow-y: scroll;
 }
 
@@ -51,30 +50,34 @@ html {
     list-style-type: none;
     display: inline-block;
     margin: 10px;
-    width: 80%;
+    width: 300px;
     border-radius: 20px;
-    background-color: black;
+    background-color: #31962d;
     border: white solid 3px;
 }
 
 .navbar a {
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Lobster';
     color: #fff;
-    background-color: black;
-    padding: 4em;
+    background-color: #31962d;
+    padding: 10px;
     border-radius: 20px;
     display: block;
 }
 
-.navbar a:hover {
-    background-color:grey;
+.navbar .return {
+    background-color: white;
+    border-color: black;
+    color: black;
 }
 
-img {
-    background-color: white;
-    padding: 6px;
-    border-radius: 10px;
+.navbar a:hover {
+    background-color:#4ade45;
+}
+
+.navbar .return:hover {
+    background-color:grey;
 }
 
 /* Footer for all pages */
@@ -107,12 +110,12 @@ footer {
 /* Announcements Page */
 .announcement {
     display: block;
-    background-color: rgba(114, 76, 186, 95%);
+    background-color: #31962d;
     margin: 20px auto;
     width: 75%;
     border-radius: 10px;
     padding: 1%;
-    border: black solid 3px;
+    border: white solid 3px;
 }
 
 .announcement h1, .announcement h3, .announcement p, .announcement a {
@@ -124,7 +127,7 @@ footer {
 
 .announcement h1 {
     font-size: 1.7em;
-    color:aquamarine;
+    color:#e8ed61;
 }
 
 /* Class Documents Page */
@@ -153,12 +156,12 @@ footer {
 }
 
 .lessons {
-    background-color: #A74CBA;
+    background-color: #77b344;
     margin-right: 15px;
 }
 
 .code {
-    background-color: #4C5DBA;
+    background-color: #44b376;
 }
 
 .document  {
@@ -174,11 +177,11 @@ footer {
 }
 
 .lessons .document {
-    background-color: #BA8CBD;
+    background-color: #afdb8a;
 }
 
 .code .document  {
-    background-color: #8392BC;
+    background-color: #96ebbc;
 }
 
 .document button {
@@ -197,7 +200,7 @@ footer {
   -webkit-user-select: none;
   touch-action: manipulation;
   width: 80%;
-  background-color: #5E4CBA;
+  background-color: #31962d;
 }
 
 .document button:active {
@@ -218,8 +221,8 @@ footer {
 	font-family: "Poppins", serif;
 	background: radial-gradient(
 		circle,
-		#427CBD 0%,
-		#824CBA 100%
+		#77b344 0%,
+		#44b376 100%
 	);
     border-radius: 30px;
     padding: 3%;
@@ -255,7 +258,7 @@ footer {
     color: #000;
     font-size: 1.2em;
     padding: 2%;
-    background-color: #b282d9;
+    background-color: #86f7b9;
 }
 
 .upcoming h1 {
@@ -265,7 +268,7 @@ footer {
     margin-right: auto;
     padding: 10px;
     border-radius: 5px;
-    color:aqua;
+    color: #909423;
 }
 
 #urgent h1 {

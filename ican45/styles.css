@@ -1,8 +1,7 @@
 
 html {
-    background-image: url("images/background1.jpg");
+    background-image: url("../images/background.jpg");
     background-repeat: repeat;
-    background-size: contain;
     overflow-y: scroll;
 }
 
@@ -51,30 +50,33 @@ html {
     list-style-type: none;
     display: inline-block;
     margin: 10px;
-    width: 80%;
+    width: 300px;
     border-radius: 20px;
-    background-color: black;
-    border: white solid 3px;
+    background-color: #744CBA;
+    border: black solid 3px;
 }
 
 .navbar a {
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Lobster';
     color: #fff;
-    background-color: black;
-    padding: 4em;
+    background-color: #744CBA;
+    padding: 10px;
     border-radius: 20px;
     display: block;
 }
 
-.navbar a:hover {
-    background-color:grey;
+.navbar .return {
+    background-color: #000;
+    border-color: white;
 }
 
-img {
-    background-color: white;
-    padding: 6px;
-    border-radius: 10px;
+.navbar a:hover {
+    background-color:#9461ed;
+}
+
+.navbar .return:hover {
+    background-color:grey;
 }
 
 /* Footer for all pages */
